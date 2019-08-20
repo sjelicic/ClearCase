@@ -1,0 +1,315 @@
+25d24
+< ./NExportFmwk_pcmp/bl/toTpp.cpp
+1276d1274
+< ./N3PP_pcmp/bea/tuxedo12.1.3.0.0_VS2010/udataobj/security/certs/revoked.crl
+8121,8122d8118
+< ./NFmwkTest_pcmp/spt/tools/FullProdLoad_Template~/scripts/FACT/tst_svrFACTCashCreditRepListener.tpp
+< ./NFmwkTest_pcmp/spt/tools/FullProdLoad_Template~/scripts/GLEO/GLEO_code_4.tpp
+8126,8127d8121
+< ./NFmwkTest_pcmp/spt/tools/FullProdLoad_Template~/scripts/XMLData/Workflow.gds
+< ./NFmwkTest_pcmp/spt/tools/FullProdLoad_Template~/scripts/XMLData/Workflow.gds_bak
+8129d8122
+< ./NFmwkTest_pcmp/spt/tools/FullProdLoad_Template~/scripts/XMLData/gq.gds
+8134d8126
+< ./NFmwkTest_pcmp/spt/tools/GQ_query~/lisa-shipment.gds
+8238d8229
+< ./NBE_pcmp/dl/dlShipmentDnDDetails.cpp
+8250d8240
+< ./NBE_pcmp/tpp/152_1_IssueTransportDocument/TD21649_ValidateTPDocIssueVerifyCopyPopulateService.tpp.defunct
+8252,8427d8241
+< ./NBE_pcmp/tpp/998_57_HaulageWorkOrderReply/HaulageWorkOrder1.txt
+< ./NBE_pcmp/tpp/998_57_HaulageWorkOrderReply/HaulageWorkOrder2.txt
+< ./NBE_pcmp/tpp/998_57_HaulageWorkOrderReply/998_57_HaulageWorkOrderReply.tpp.defunct
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_CreateData.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_CreateData1.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/FeatureDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationModeCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/FeatureFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationModeDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/FeatureInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationModeFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionHistoryUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationModeInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationModeInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationModeReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/FeatureInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationModeUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesDocumentCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesDocumentDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesDocumentFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleDocumentInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesDocumentInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesDocumentInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleDocumentReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesDocumentReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesDocumentUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesFormCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesFormDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesFormFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesFormInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesFormInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionHistoryCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesFormReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionHistoryDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesFormUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionHistoryFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/FeatureCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionHistoryInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionHistoryInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelSubscriptionHistoryReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleDocumentInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleDocumentCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleDocumentUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleDocumentDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/FeatureUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/CommunicationPreferencesRoleDocumentFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/FeatureReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/EChannelUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkTypeCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkTypeDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkTypeFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkTypeInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkTypeInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkTypeReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkTypeUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LinkUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LocationCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LocationDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LocationFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LocationInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LocationInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LocationReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/LocationUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/OrganisationCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/OrganisationDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/OrganisationFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/OrganisationInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/OrganisationInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/OrganisationReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/OrganisationUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/Person2Create.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/Person2Delete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/Person2Foobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/Person2Inactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/Person2Init_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/Person2Reactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/Person2Update.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/PersonCreate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/PersonDelete.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/PersonFoobar.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/PersonInactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/PersonInit_load.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/PersonReactivate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/combinations/PersonUpdate.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/incorrect/01_Reactivate_Unknown_Link.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/incorrect/02_Incorrect_Fields_In_Tag.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/incorrect/03_Create_already_existing.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/incorrect/05_Wrong_Tag005.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/incorrect/06_Wrong_Tag019.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/incorrect/ExpectedTagMissing.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/data/incorrect/NoContentAfterTag.scv
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_RQ-5639.tpp
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_DeleteData.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_DeleteData1.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_Customer_Reactivate.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/RQ-5530_final.tpp
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_ActiveCustomer.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_ActiveCustomer2.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_ActiveCustomer3.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveCustomer2.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_ActiveCustomer3_AddAdditionalContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveCustomer_ForAdditionalContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_ActiveCustomer_AddAdditionalContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveOtherLocation.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_ActiveCustomer_InactiveRKSTaddress.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveCustomer.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InvalidCustomer2.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_CustomerSearch.tpp_defunct
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_ActiveCustomer_WithPreDefinedSegmentationAndCustomerDetails.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveCustomer_InvalidContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_Customer3_InactiveAdditionalContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_Customer3_InvalidAdditionalContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InvalidContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InvalidCustomer.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_UpdateSegmentFORActiveCustomer.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_UpdateUnknownSegmentFORActiveCustomer.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveSalesMLExportContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveSalesMLImportContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveSalesSCLExportContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveSalesSCLImportContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_UpdateUnknownSegmentFORActiveCustomer_SAF.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_Affiliate_Create.tpp
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveContact_ForCustomerWithAdditionalContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InvalidContact_ForCustomerWithAdditionalContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/RQ5530_RQ5980_test.tpp
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_RQ6008_CBU_Create_Update_Delete.tpp
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_RQ6008_CBU_Create_Update_Delete_Extif.tpp.defunct
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveCustomer_WithoutContactLink.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_Organisation_Create.tpp.defunct
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveCustomer_WithoutContactLink_ForInvalidContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_RQ3436_Affected_125_1_GetRecipient_EChannel.tpp.defunct
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveCustomer_ForAdditionalContact_InvalidContact.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_Affiliate_Create1.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_Affiliate_Create2.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_Affiliate_Delete.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_Affiliate_Update.tpp
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_Affiliate_Update.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_OperatorAffiliateRelation.tpp_defunct
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_Organisation_Affiliate.tpp
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_R2615_Organisation_AffiliateCreate.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/CreateCommunicationPref.txx
+< ./NBE_pcmp/tpp/998_59_SCV_Replication/998_59_SCV_Replication_InactiveCustomer_UpdateCommunicationPref.tpp.defunct
+8429,8442d8242
+< ./NBE_pcmp/tpp/998_83_RouteCode/Receive_error_001.msg
+< ./NBE_pcmp/tpp/998_83_RouteCode/Receive_success_001.msg
+< ./NBE_pcmp/tpp/998_83_RouteCode/Receive_success_002.msg
+< ./NBE_pcmp/tpp/998_83_RouteCode/TD17340_check_shipment_note_when_recive_route_code.tpp
+< ./NBE_pcmp/tpp/ListenerTest/svrRouteCodeListner.msg
+< ./NBE_pcmp/tpp/999_25_CollectionBusinessUnitLookup/UnitTestData1.txt
+< ./NBE_pcmp/tpp/125_1_ConfirmBooking/RQ5093_GetSelected_Common.txx
+< ./NBE_pcmp/tpp/125_1_ConfirmBooking/RQ5093_AutoConfirm_Failed_BookedByMissing.tpp.defunct
+< ./NBE_pcmp/tpp/125_1_ConfirmBooking/RQ5093_AutoConfirm_Failed_RecipientMissing.tpp.defunct
+< ./NBE_pcmp/tpp/125_1_ConfirmBooking/RQ5093_AutoConfirm_NotValid_For_SecondIssue.tpp.defunct
+< ./NBE_pcmp/tpp/125_1_ConfirmBooking/RQ5093_AutoConfirm_Successful_On_ArrangeIntermodalExpClosed.tpp.defunct
+< ./NBE_pcmp/tpp/125_1_ConfirmBooking/RQ5093_AutoConfirm_Successful_On_ReserveSpaceClosed.tpp.defunct
+< ./NBE_pcmp/tpp/125_1_ConfirmBooking/RQ5093_AutoConfirm_Successful_On_SAFOperatorShipment.tpp.defunct
+< ./NBE_pcmp/tpp/125_1_ConfirmBooking/RQ5093_AutoConfirm_Successful_On_SpecifyShipperClosed.tpp.defunct
+8482,8485d8281
+< ./NBE_pcmp/tpp/SPT/common/scripts/FACT/tst_svrFACTCashCreditRepListener.tpp
+< ./NBE_pcmp/tpp/SPT/common/scripts/FUI/FUISimpleCreate.tpp
+< ./NBE_pcmp/tpp/SPT/common/scripts/FUI/FUI_GDS_problem.tpp
+< ./NBE_pcmp/tpp/SPT/common/scripts/GLEO/GLEO_code_4.tpp
+8581,8600d8376
+< ./NBE_pcmp/tpp/SPT/old_tools/GeneralQuery/lisa-shipment.gds
+< ./NBE_pcmp/tpp/998_70_GDS_Reader/RD00570_VerifyShipmentGDS.tpp
+< ./NBE_pcmp/tpp/998_70_GDS_Reader/RD00570_VerifyTpDocGDS.tpp
+< ./NBE_pcmp/tpp/999_35_Weight_Validation/107_8_ModifyEquipmentValidation_FUI.tpp
+< ./NBE_pcmp/tpp/998_108_Commitment_Interface/Send_Commitment_Request_Basic_YVD.tpp
+< ./NBE_pcmp/tpp/998_00_Extif_Framework/RD-00921.txx
+< ./NBE_pcmp/testdata/GDS/TestGDS.txt
+< ./NBE_pcmp/testdata/GDS/gdsDefect702.txt
+< ./NBE_pcmp/testdata/GDS/gdsDefect730.txt
+< ./NBE_pcmp/testdata/GDS/gdsDefect780.txt
+< ./NBE_pcmp/testdata/GDS/gdsDefect857.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx10.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx1A.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx1B.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx2A.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx3A.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx4A.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx5A.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx6A.txt
+< ./NBE_pcmp/testdata/GDS/gdsFromEx7A.txt
+8811c8587
+< ./NBE_pcmp/lost+found/10
+---
+> ./NBE_pcmp/lost+found/10:02.d37a6d8fe87f11e298fe0050568925ac
+14111d13886
+< ./NBE2_pcmp/bp/test/GeneralQuery.txt
+14115,14118d13889
+< ./NBE2_pcmp/bp/ShipmentWriter/test/TestGDS3.txt
+< ./NBE2_pcmp/bp/ShipmentWriter/test/TestGDS_ShipmentNotePrinter_R41.txt
+< ./NBE2_pcmp/bp/ShipmentWriter/test/TestGDS_ShipmentNotePrinter_R42.txt
+< ./NBE2_pcmp/bp/ShipmentWriter/test/TestGDS_ShipmentNotePrinter_R50.txt
+14121,14122d13891
+< ./NBE2_pcmp/importshipment/tpp/204_1_GDS.tpp.defunct
+< ./NBE2_pcmp/product/oanotification/tpp/195_1_OperationalActivities/195_1_SIMULATE_OA_LISTENER.txx
+14126,14127d13894
+< ./NBE2_pcmp/pricing/tpp/114_3_Pricing_By_Mars/TD15849.tpp.defunct
+< ./NBE2_pcmp/customer/tpp/107_3_BookingParties/SetupSanctionedPartyCustomerLinks_For_Type_0008_0010_Using_SCV_Replication.txx
+14136d13902
+< ./NBE2_pcmp/if/EXTIF/connectors/HaulageOrder/HaulageOrderOMap.cpp
+14139,14140d13904
+< ./NBE2_pcmp/if/EXTIF/test/EDIIMapTestCaseData.txt
+< ./NBE2_pcmp/if/EXTIF/test/geo_dlsz_dlsd_time_2.txt
+14142d13905
+< ./NBE2_pcmp/if/GDS/test/GDSForDelete.txt
+15617a15381
+> ./NSec_pcmp/Source/Common/VS_Macros/GCSSExportFramework.vb
+15619a15384
+> ./NSec_pcmp/Source/FE/API/Source/SecurityAPI/SecurityAPI.vsscc
+15759a15525
+> ./NSec_pcmp/Source/FE/UserAdminToolSetup/UserAdminToolSetup.vsscc
+16286a16053
+> ./NSec_pcmp/ExcelImporterSetup.reg
+16424a16192
+> ./NFE_pcmp/GSolution/001_UIFramework/Source/GCSSMain.vsscc
+16445a16214
+> ./NFE_pcmp/GSolution/013_CustomerReferences/Source/Feature013.vsscc
+16467a16237,16238
+> ./NFE_pcmp/GSolution/101_ActivityPlan/Source/Feature101.vsscc
+> ./NFE_pcmp/GSolution/103_1_PendingTray/Source/Feature103_1.vsscc
+16470a16242
+> ./NFE_pcmp/GSolution/105_CustomerAndContactSelection/Source/Feature105.vsscc
+16471a16244,16245
+> ./NFE_pcmp/GSolution/107_2_MaintainBookingProperties/Source/Feature107_2.vsscc
+> ./NFE_pcmp/GSolution/107_3_MaintainBookingParties/Source/Feature107_3.vsscc
+16472a16247,16248
+> ./NFE_pcmp/GSolution/108_1_BookingSearch/Source/Feature108_1.vsscc
+> ./NFE_pcmp/GSolution/108_2_SearchBookingToCopyFrom/Source/Feature108_2.vsscc
+16475a16252,16254
+> ./NFE_pcmp/GSolution/122_x_Haulage/Source/Feature122.vsscc
+> ./NFE_pcmp/GSolution/125_ConfirmBooking/Source/Feature125.vsscc
+> ./NFE_pcmp/GSolution/126_2_DeleteContainer/Source/Feature126_2.vsscc
+16493a16273,16274
+> ./NFE_pcmp/GSolution/999_4_VesselLookUp/Source/Feature999_4.vsscc
+> ./NFE_pcmp/GSolution/999_6_TradeLaneLookUp/Source/Feature999_6.vsscc
+16554d16334
+< ./NFE_pcmp/Tools/BackoutQueueHandler/BackoutQueueHandler/TheApplication.cpp
+16586,16605d16365
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqbin.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqcac.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqdlh.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqerr.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqgmo.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqhdr.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqi.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqiih.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqitm.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqmgr.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqmsg.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqmtr.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqobj.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqpmo.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqpro.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqque.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqrfh.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqstr.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqtrg.hpp
+< ./NFE_pcmp/Tools/CommonMQGDS/MQ/include/imqtype.h
+16645d16404
+< ./find_error1.txt

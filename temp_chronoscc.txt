@@ -1,0 +1,223 @@
+Cao,
+
+
+Pogledao sam ovo i naisao na potencijalne uzroke problema.
+
+
+Prvi problem sa nedostajucim paketima kao sto je "six" je posledica toga sto je networkx paket promijenio dependency-e (izmedju ostalog) pri prelasku sa verzije 1.x na verziju 2.x, a takodje ni API nije 'backward compatible' izmedju 2.x i 1.x. Ovo se moze rijesiti tako sto se koristi stariji networkx.
+
+
+$ sudo pip3.6 install 'networkx==1.11' --force-reinstall
+
+Drugi problem (CREATE INDEX ... WHERE ...) je posledica toga sto CentOS 7 koristi SQLite 3.7.17 (iz 2013) koja ne podrzava parcijalne indekse. Ta mogucnost je uvedena u 3.8 😊
+
+
+
+Ne znam kako si ti dobio sqlite 3.23.1 kod sebe. Ja na updateovanom centosu vidim sledece:
+
+
+
+
+[python@chronos-build ~]$ yum list sqlite 
+...
+Installed Packages
+sqlite.x86_64 3.7.17-8.el7 @anaconda
+Available Packages
+sqlite.i686 3.7.17-8.el7 base
+
+ili
+
+
+
+
+[python@chronos-build ~]$ sqlite3
+SQLite version 3.7.17 2013-05-20 00:56:22
+
+[python@chronos-build ~]$ python3.6 
+Python 3.6.5 (default, Apr 10 2018, 17:08:37)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-16)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sqlite3
+>>> sqlite3.version
+'2.6.0'
+>>> sqlite3.sqlite_version
+'3.7.17'
+
+Takodje i u logu od chronoscc:
+
+
+
+
+cat chronoscc.log:
+
+2018-05-14 00:24:05,802: [2784]: INFO - Running python sys.version_info(major=3, minor=6, micro=5, releaselevel='final', serial=0) 
+2018-05-14 00:24:05,803: [2784]: INFO - PySQLite version: 2.6.0
+2018-05-14 00:24:05,803: [2784]: INFO - SQLite version: 3.7.17
+
+Mozda si ti izbildovao novi sqlite ili instalirao neki noviji paket? Ali izgleda da python i dalje koristi centos default (pretpostavljam da nisi mijenjao prioritet foldera za dinamicki linker).
+
+
+
+Trece, ja sam koristio cx_Freeze 6.0b1 dok je na pip-u verzija 5.1.1. Ovo cini mi se ne pravi problem ali se moze isforsirati pip da koristi noviju.
+
+
+
+
+
+
+
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+
+
+./configure --prefix=/home/sjelicic/temp_sqlite3 
+
+
+
+https://endava-my.sharepoint.com/:u:/p/nebojsa_tausan/EXPIW2tYpxpFktb2aouJVbEByVfdvEj42Yy8yZVViPqlQw?e=zrbgnO
+
+
+
+
+
+sudo yum install -y vim-enhanced-7.4.160-4.el7.x86_64
+sudo yum install -y wget-1.14-15.el7_4.1.x86_64
+
+
+sudo yum groupinstall -y 'Development tools'
+sudo yum install -y tcl zlib-devel
+sudo yum install -y openssl-devel
+
+
+###vezano za VBox
+yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+
+
+
+
+$ cd ~; mkdir code; mkdir build
+
+
+Set up paths in your ``.bashrc`` or ``.bash_profile``::
+
+#### Paths config ####
+PATH="$PATH:$HOME/bin:$HOME/build/bin"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$HOME/build/lib"
+LD_RUN_PATH="$LD_RUN_PATH:/build/lib"
+PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$HOME/build/lib"
+# PKG_CONFIG_LIBDIR="$PKG_CONFIG_LIBDIR:$HOME/build/lib"
+export PATH LD_RUN_PATH LD_LIBRARY_PATH PKG_CONFIG_PATH # PKG_CONFIG_LIBDIR
+
+
+cd code
+wget https://www.sqlite.org/2018/sqlite-autoconf-3240000.tar.gz
+tar xvzf sqlite-autoconf-3240000.tar.gz 
+
+
+
+
+CFLAGS=-fPIC CPPFLAGS=-fPIC LDFLAGS=-fPIC ./configure --enable-shared=no --disable-tcl --prefix=$HOME/build
+
+configure: WARNING: unrecognized options: --disable-tcl
+
+./configure --help nema --disable-tcl opciju
+
+
+make
+make install
+
+
+make[1]: Entering directory `/home/slobodan.jelicic/sqlite-autoconf-3240000'
+ /usr/bin/mkdir -p '/home/slobodan.jelicic/build/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libsqlite3.la '/home/slobodan.jelicic/build/lib'
+libtool: install: /usr/bin/install -c .libs/libsqlite3.lai /home/slobodan.jelicic/build/lib/libsqlite3.la
+libtool: install: /usr/bin/install -c .libs/libsqlite3.a /home/slobodan.jelicic/build/lib/libsqlite3.a
+libtool: install: chmod 644 /home/slobodan.jelicic/build/lib/libsqlite3.a
+libtool: install: ranlib /home/slobodan.jelicic/build/lib/libsqlite3.a
+libtool: finish: PATH="/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/slobodan.jelicic/.local/bin:/home/slobodan.jelicic/bin:/home/slobodan.jelicic/bin:/home/slobodan.jelicic/build/bin:/sbin" ldconfig -n /home/slobodan.jelicic/build/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/slobodan.jelicic/build/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/slobodan.jelicic/build/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c sqlite3 '/home/slobodan.jelicic/build/bin'
+libtool: install: /usr/bin/install -c sqlite3 /home/slobodan.jelicic/build/bin/sqlite3
+ /usr/bin/mkdir -p '/home/slobodan.jelicic/build/include'
+ /usr/bin/install -c -m 644 sqlite3.h sqlite3ext.h '/home/slobodan.jelicic/build/include'
+ /usr/bin/mkdir -p '/home/slobodan.jelicic/build/share/man/man1'
+ /usr/bin/install -c -m 644 sqlite3.1 '/home/slobodan.jelicic/build/share/man/man1'
+ /usr/bin/mkdir -p '/home/slobodan.jelicic/build/lib/pkgconfig'
+ /usr/bin/install -c -m 644 sqlite3.pc '/home/slobodan.jelicic/build/lib/pkgconfig'
+make[1]: Leaving directory `/home/slobodan.jelicic/sqlite-autoconf-3240000'
+
+
+
+wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz
+tar -xvf Python-3.6.5.tar.xz
+
+
+./configure --enable-optimizations --with-lto --enable-shared --prefix=$HOME/build
+make
+make altinstall
+
+
+
+/home/slobodan.jelicic/code/Python-3.6.5/Lib/test/test_hashlib.py:93: UserWarning: Did a C extension fail to compile? No module named '_hashlib'
+  warnings.warn('Did a C extension fail to compile? %s' % error)
+
+
+
+pip3.6 install decorator
+
+pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.
+
+
+
+
+./configure --enable-optimizations --with-lto --enable-shared --prefix=$HOME/build
+make
+make altinstall
+
+
+pip3.6 install decorator
+pip3.6 install networkx==1.11
+pip3.6 install cx_Freeze
+
+
+
+
+cxfreeze chronoscc/__main__.py --target-dir=dist/chronoscc-0.9.0-el7x86_64 --target-name=chronoscc --include-path=.
+
+
+
+
+
+

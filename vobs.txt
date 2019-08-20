@@ -1,0 +1,35 @@
+/vobs/NExportFmwk_pcmp  		done 20
+/vobs/NRefDataTool_pcmp 		done 19
+/vobs/NFE2_pcmp 				done 18
+/vobs/NDocProc_pcmp     		done 17	
+/vobs/NActPlan_pcmp     		done 16
+/vobs/N3PP_pcmp 				done 15
+/vobs/NCommon_pcmp 				done 14
+/vobs/NBE2_pcmp 				done 13, error log empty			(might have messes it up, and some others below)		
+/vobs/NDocware_pcmp				done 12	
+/vobs/NFE_pcmp 					done 11 (_1 suffix)	
+/vobs/NBE_pcmp 					done <- which one (original directory)
+/vobs/NAlloc_pcmp				done 10
+/vobs/NGeo_pcmp					done 9
+/vobs/NSec_pcmp					done 8
+/vobs/NConfig_pcmp 				done 7
+/vobs/NFmwkTest_pcmp 			done 6
+/vobs/Archiving 				done 5, error log empty (might have messed it up)
+/vobs/N_Bravo_pvob/GHDR_pcmp 	done 4 (size zero)
+/vobs/GCSS_mqmh 				done 3
+/vobs/GHDER_pcmp				done 2
+/vobs/TOP_pcmp					done 1 (weird error log)
+/vobs/ARCHIVE_pcmp 				done (orginal folder)
+
+
+
+
+ct setview slobodanj_R6000_view
+export LC_ALL="en_US.UTF-8"
+cd /u01/slobodanj/chronoscc-dist-0.10.6-el7x86_64_17
+
+nohup ./chronoscc -p /vobs/N_Bravo_pvob/ -o ./test.out -s ./test.db -e cp1252 --parallel 4 --lsvtree-elements 50 &
+
+
+
+

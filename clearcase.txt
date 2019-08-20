@@ -1,0 +1,1261 @@
+scrbalwdk004237.crb.apmoller.net
+slobodanj
+LongPassword1234!
+
+http://vdidc2.maersk.com/
+SJE064
+77_ninica_77
+
+
+MAEGS002 - project code
+
+
+Manual POC migration - https://confluence.endava.com/display/MAEGS002/Manual+POC+migration 		#creating the snapshot view
+Migration plan - https://confluence.endava.com/display/MAEGS002/Migration+plan
+
+
+
+
+
+
+
+
+
+
+
+Remove and recreate UCM baselines - http://www-01.ibm.com/support/docview.wss?uid=swg21147318
+
+ClearCase : How Can I Revert to Earlier baseline? - https://stackoverflow.com/questions/606149/clearcase-how-can-i-revert-to-earlier-baseline
+
+
+
+ClearCase UCM: Access and change config spec from script - https://stackoverflow.com/questions/49052181/clearcase-ucm-access-and-change-config-spec-from-script
+
+rebase - http://paperlined.org/dev/reference/clearcase_v4.0/rebase.html
+
+Starting and stopping Rational ClearCase on Linux and the UNIX system - https://www.ibm.com/support/knowledgecenter/en/SSSH27_8.0.1/com.ibm.rational.clearcase.cc_admin.doc/topics/r_intro_startstop_ux.htm
+
+init_ccase - https://www.ibm.com/support/knowledgecenter/SSSH27_7.1.2/com.ibm.rational.clearcase.cc_ref.doc/topics/init_ccase.htm
+
+albd_server process - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.0/com.ibm.rational.clearcase.cc_admin.doc/topics/r_intro_serverprocs_albd.htm
+
+find: File system loop detected - https://unix.stackexchange.com/questions/153761/find-file-system-loop-detected
+
+
+
+
+
+
+
+
+
+
+
+### Creating/Removing Clearcase objects###
+
+Creating Snapshot View via ClearCase Cleartool Commands - https://iffetoguz.com/2016/10/04/creating-snapshot-view-via-clearcase-cleartool-commands/
+
+Creating a snapshot view from the command line in ClearCase LT - http://www-01.ibm.com/support/docview.wss?uid=swg21121208
+
+To create a view - https://www.ibm.com/support/knowledgecenter/SSSH27_8.0.0/com.ibm.rational.clearcase.dev.doc/topics/cc_dev/to_create_view.htm
+
+mkview - https://www.ibm.com/support/knowledgecenter/da/SSSH27_9.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_mkview.htm
+mkstream - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_mkstream.htm
+
+Before removing a view - https://www.ibm.com/support/knowledgecenter/en/SSSH27_7.1.2/com.ibm.rational.clearcase.dev.doc/topics/cc_dev/before_remove_view.htm
+
+To remove a view - https://www.ibm.com/support/knowledgecenter/en/SSSH27_7.1.1/com.ibm.rational.clearcase.dev.doc/topics/cc_dev/to_remove_view.htm
+rmstream - https://www.ibm.com/support/knowledgecenter/SSSH27_8.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_rmstream.htm
+
+endview - https://www.ibm.com/support/knowledgecenter/SSSH27_7.1.2/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_endview.htm
+
+edcs - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_edcs.htm
+config_spec - https://www.ibm.com/support/knowledgecenter/SSSH27_9.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/config_spec.htm
+
+How do I create a snapshot view of some project or stream in ClearCase? - https://stackoverflow.com/questions/1367635/how-do-i-create-a-snapshot-view-of-some-project-or-stream-in-clearcase/1367656#1367656
+
+
+
+
+
+
+### Getting information ###
+
+fmt_ccase - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.0/com.ibm.rational.clearcase.cc_ref.doc/topics/fmt_ccase.htm
+
+lsstream - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.0/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_lsstream.htm
+
+lsview - https://www.ibm.com/support/knowledgecenter/en/SSSH27_7.1.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_lsview.htm
+
+lsproject - https://www.ibm.com/support/knowledgecenter/en/SSSH27_7.1.2/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_lsproject.htm
+
+lshistory - https://www.ibm.com/support/knowledgecenter/SSSH27_8.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_lshistory.htm
+
+
+List baseline information per stream or component or by promotion level: - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_lsbl.htm
+
+lsbl - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_lsbl.htm
+
+How to obtain UCM stream and baseline with cleartool? - https://stackoverflow.com/questions/4439292/how-to-obtain-ucm-stream-and-baseline-with-cleartool
+
+cleartool: How to list all labels in a stream chronologically? - https://stackoverflow.com/questions/13035841/cleartool-how-to-list-all-labels-in-a-stream-chronologically/13036581#13036581
+
+Find UCM baseline history - https://stackoverflow.com/questions/21463701/find-ucm-baseline-history
+
+Get the ClearCase VOB of an activity, stream or stream location with cleartool - https://stackoverflow.com/questions/28881768/get-the-clearcase-vob-of-an-activity-stream-or-stream-location-with-cleartool
+
+Command to find all view private files in the current directory recursively - https://stackoverflow.com/questions/7657084/command-to-find-all-view-private-files-in-the-current-directory-recursively
+
+How to symlink view private files in clearcase? - https://stackoverflow.com/questions/9081138/how-to-symlink-view-private-files-in-clearcase
+
+How to list view-private files in a view in Rational ClearCase - http://www-01.ibm.com/support/docview.wss?rs=0&uid=swg21150095
+How to locate view private files in the storage directory - http://www-01.ibm.com/support/docview.wss?uid=swg21146208
+
+lsprivate - https://www.ibm.com/support/knowledgecenter/en/SSSH27_7.1.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_lsprivate.htm
+
+list views belonging to a specific user - https://www.ibm.com/developerworks/community/forums/html/topic?id=e73b93ff-7a38-43a6-8f2f-958e564ffacd
+
+Getting present working view in Clearcase - https://stackoverflow.com/questions/24267665/getting-present-working-view-in-clearcase
+
+Display Current Baseline with Cleartool - https://stackoverflow.com/questions/5897978/display-current-baseline-with-cleartool
+
+How can i list the recommended base line in ClearCase - https://stackoverflow.com/questions/25426956/how-can-i-list-the-recommended-base-line-in-clearcase
+
+how to find root[folder] for each component using cleartool? - https://stackoverflow.com/questions/8769815/how-to-find-rootfolder-for-each-component-using-cleartool
+
+How to determine the last time a VOB was modified - http://www-01.ibm.com/support/docview.wss?uid=swg21257286
+
+How to retrieve stream name by a given view name in ClearCase UCM? - https://stackoverflow.com/questions/7872437/how-to-retrieve-stream-name-by-a-given-view-name-in-clearcase-ucm
+
+How to get ClearCase stream name by a given view path? - https://stackoverflow.com/questions/19127353/how-to-get-clearcase-stream-name-by-a-given-view-path
+
+Display a list of UCM projects or streams and their lock status - http://www-01.ibm.com/support/docview.wss?uid=swg21117300
+
+find - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.1/com.ibm.rational.clearcase.cc_ref.doc/topics/ct_find.htm
+
+How to list ClearCase activities in certain streams? - https://stackoverflow.com/questions/22563120/how-to-list-clearcase-activities-in-certain-streams
+
+
+
+
+
+
+
+
+
+
+### ClearCase information ###
+
+Difference between branches and streams in ClearCase? - https://stackoverflow.com/questions/5636690/difference-between-branches-and-streams-in-clearcase
+ 
+What is the difference between Full baseline and Incremental baseline in Clearcase UCM? - https://stackoverflow.com/questions/9696598/what-is-the-difference-between-full-baseline-and-incremental-baseline-in-clearca/9696988#9696988
+
+About UCM baseline types - http://www-01.ibm.com/support/docview.wss?uid=swg21149500
+
+About streams - https://www.ibm.com/support/knowledgecenter/SSSH27_8.0.1/com.ibm.rational.clearcase.dev.doc/topics/cc_dev/about_stream.htm
+
+Types of baselines - https://www.ibm.com/support/knowledgecenter/SSSH27_8.0.1/com.ibm.rational.clearcase.tutorial.doc/topics/a_baselines_types.htm
+
+About components, baselines, activities, and streams - https://www.ibm.com/support/knowledgecenter/en/SSSH27_9.0.1/com.ibm.rational.clearcase.ccrc.help.doc/topics/c_blstream.htm
+
+Integration stream vs integration view in ClearCase - https://stackoverflow.com/questions/9880031/integration-stream-vs-integration-view-in-clearcase
+
+ClearCase: Stream maintenance - https://stackoverflow.com/questions/8464132/clearcase-stream-maintenance
+
+What are the basic clearcase concepts every developer should know? [closed] - https://stackoverflow.com/questions/645008/what-are-the-basic-clearcase-concepts-every-developer-should-know
+
+pathnames_ccase - https://www.ibm.com/support/knowledgecenter/en/SSSH27_8.0.0/com.ibm.rational.clearcase.cc_ref.doc/topics/pathnames_ccase.htm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.ccl.net/cca/software/UNIX/clearcase/index.html
+
+The popular task in ClearCase is first to make a type of something and then to use the something.
+
+
+Make Type 			Attach 				Comment
+Command 			Command
+		
+mklbtype			mklabel				Labels are used to mark a particular version of the element (e.g., file or directory). The most 
+										common use for them is to mark a set of particular versions of files and directories that represent a snapshot of a project at some milestone (e.g., a release). Since you are not allowed to assign the same label to two different versions of the same element, labels ensure that creation of new versions of elements in the future does not affect the set of versions marked with a label.
+
+mkattype			mkattr				Attributes are the name/value pairs. The value can be of different types (e.g., an integer, a string 
+										of characters or a boolean value TRUE/FALSE). When you create an attribute type with a mkattype command you need to specify what the values can be. The attributes are very flexible and you can attach them to essentially any object on the VOB, i.e., to an element, to a particular element version, to a branch, etc. You can use them to add some notes or assign some property to the VOB object. You can use the ClearCase ct find ... command and find the elements that have certain attribute values. To tell you the truth, I never used attributes directly.
+
+mkhltype			mkhlink				Hyperlinks connect a VOB object to another object. Obviously the two objects have to be of the same 
+										kind before they can be hyperlinked. The merge arrow is an example of the hyperlink of type Merge that comes predefined with ClearCase. The hyperlinks are logical associations. For example, you can link an element version to a file that describes what has been done.
+
+mkeltype			mkelem or			The element type represents a type of file that is created. ClearCase comes with some eltypes 
+					chtype				predefined, like text_file or directory. The element type is usually assigned to the element 							automatically based on the magic file that associates extensions of files with the type. 
+
+mkbrtype			mkbranch			The branch is a VOB object that collects consecutive versions of the element. The main branch is 
+										predefined in ClearCase. However, if you want to create a new sub-branch, you need to first create it with the mkbrtype command. This is done usually when you create a view which will be placing new element versions on a specific branch according to the rules in the config spec file. Then the config spec file instructs the ClearCase to use mkbranch command to assign the branch to a version of an element. Now you see what I am talking about... The lingo... This is double Dutch (sorry folks from The Netherlands... I did not come up with this on my own...).
+
+
+Attached is hierarchy list in txt format, graph edges as csv, graph in graphviz dot format and graphiz outputs as svg and pdf.
+ccomps -x hierarchy_edges_sorted_unique_renamed.dot | dot | gvpack | neato -s -n2 -Tpdf > hierarchy_edges_sorted_unique_renamed.pdf
+
+ du -sh
+
+Number of projects per PVOB
+ct lsproject -s -invob <pvob-tag> | wc -l
+
+Last change on VOB 
+ct lshistory vob:<vob-tag>
+
+Correct, if the VOB has ucmvob marker shown with ct lsvob, then its a PVOB. This is something that is defined when VOB is created. Try to see if ct desc vob:/vobs/NBE_pcmp lists any AdminVOB hyperlinks at the bottom and share the output.
+
+Hi Stevan,
+
+ 
+
+Basically, I did this:
+
+/home/chronos> find /vobs/NBE_pcmp/ -type d -o -type f | wc -l
+
+10582
+
+ 
+
+If I try to list projects in NBE_pcmp I get nothing:
+
+/home/chronos> ct lsproject -l -invob /vobs/NBE_pcmp
+
+/home/chronos>
+
+ 
+
+Similarly, with cleartool find:
+
+/home/chronos> cleartool find /vobs/NBE_pcmp/ -type f -print | wc -l
+
+9210
+
+/home/chronos> cleartool find /vobs/NBE_pcmp/ -type d -print | wc -l
+
+1371
+
+ 
+
+How did you determine it’s a PVOB from lsvob?
+
+ 
+
+$ ct lsvob –l /vobs/NBE_pcmp
+
+Tag: /vobs/NBE_pcmp
+  Global path: /cc_stg/vobs/NBE_pcmp.vbs
+  Server host: scrbgcsdk002269
+  Access: public
+  Mount options:
+  Region: gcss_ux
+  Active: YES
+  Vob tag replica uuid: 564878d8.75e011d9.973f.00:01:83:0a:fc:29
+Vob on host: scrbgcsdk002269
+Vob server access path: /cc_stg/vobs/NBE_pcmp.vbs
+Vob family uuid:  564878d4.75e011d9.973f.00:01:83:0a:fc:29
+Vob replica uuid: 564878d8.75e011d9.973f.00:01:83:0a:fc:29
+Vob registry attributes: ucmvob
+
+ 
+
+Is it because of “Vob registry attributes: ucmvob”?
+Most vobs have this but do not have any projects.
+At this point, we should map their CC environment. To wrap it all up, here is a list of columns we need to have populated in a single CSV file for each VOB:
+
+ 
+
+VOB tag (gcss_ux region) – ct lsvob -l -region gcss_ux <vob-tag>
+VOB tag (gcss_win) - ct lsvob -l -region gcss_ux <vob-tag>
+Family UUID – ct lsvob –l <vob-tag> | grep “Vob family uuid” | awk ‘{print $4}’
+Server host – ct lsvob -l <vob-tag> | grep  “Server host” | awk ‘{print $3}’
+Global path - ct lsvob -l <vob-tag> | grep  “Global path” | awk ‘{print $3}’
+Access path - ct lsvob -l <vob-tag> | grep  “Global path” | awk ‘{print $3}’
+Visibility (public/private) - ct lsvob -l <vob-tag> | grep  “Access:” | awk ‘{print $2}’
+Type (PVOB/Component VOB) - ct lsvob -l <vob-tag> | grep  “ucmvob” -> if the string is found, mark it as PVOB, otherwise it’s a Component VOB
+DB schema – ct desc vob:<vob-tag> | grep “DB schema” | awk ‘{print $3}’
+VOB total size (MB) - ct space <vob-tag> | grep "Total usage" | awk '{print $8}'
+Sources size (MB) - ct space <vob-tag> | grep "source pool" | awk '{print $1}'
+Cleartext size (MB) - ct space <vob-tag> | grep "cleartext pool" | awk '{print $1}'
+DB size (MB) - ct space <vob-tag> | grep "VOB database" | awk '{print $1}'
+Derived Objects size (MB) - ct space <vob-tag> | grep “derived object pool" | awk '{print $1}'
+Sizes timestamp - ct space <vob-tag> | grep “Total usage" | awk '{print $3}'
+Last change on VOB – ct lshistory vob:<vob-tag> - search for a timestamp of the last non-root activity on VOB
+VOBs hierarchy – ct desc vob:<vob-tag> | grep AdminVOB – watch on arrows that indicate which one is the parent VOB and which one is a child, see https://www.ibm.com/support/knowledgecenter/en/SSSH27_8.0.1/com.ibm.rational.clearcase.cc_admin.doc/topics/t_typeadm_ls_hlink.htm. Make a hierarchical/tree list of VOBs as the output.
+Number of baselines per PVOB: ct lsbl -s -invob <pvob-tag> | wc -l - do it only for PVOBs (Type column)
+Number of components per PVOB: ct lscomp -s -invob <pvob-tag> | wc –l - do it only for PVOBs (Type column)
+
+ct lock –obsolete <stream-selector>
+
+
+So the command was this one:
+
+/usr/atria/bin/cleartool find /vobs/NBE_pcmp/svc -ver '{created_since(2004-01-01)}' -exec 'cleartool describe -fmt "name:%Xn\nactivity:%[activity]Xp\n"  $CLEARCASE_PN' > find-describe
+
+ 
+
+and for lshist:
+
+ 
+
+ct lshist -rec -fmt "name:%Xn\nactivity:%[activity]Xp\n" /vobs/NBE_pcmp/svc/ > lshist_activity
+
+
+ct mkview -tag stevanc_test /var/tmp/stevan_test.vws
+ct setview stevanc_test
+ct mkview -tag stevanc_test_ucm -stream
+ct setview stevanc_test_ucm
+
+ct mount -a
+
+
+##########################################################################################################
+
+Creating streams, activities and elements
+
+Create new element
+	> ct mkelem –eltype <element-type> <element-name>.<extension> 
+
+Create new stream
+	> ct mkstream –in <parent-stream> [-baseline <baseline-name>] –nc <stream-name>
+
+Create view on stream
+	> ct mkview –tag <view-tag> -stream <stream-name@pvob> -stgloc <view-storage-location>
+
+Create new activity
+	> ct mkact  <activity-name>
+
+
+Listing activities and streams
+
+Look at information related to your current stream
+> ct lsstream –l 
+> ct desc –l stream:<stream-name>@<pvob>
+
+Find the activities associated with your view
+> ct lsact 
+
+Find the name of the current activity
+> ct lsact –cact
+
+Find the changeset related to your activity
+> ct lsact –l
+
+
+Listing any UCM object
+
+List the UCM component in PVOB
+	> ct lscomp -invob <pvob>
+
+List the existing baselines for a given component 
+	> ct lsbl -comp <component-name>@<pvob> [-stream <stream-name>@<pvob>]
+
+Cleartool describe provides verbose information for all UCM objects:
+	> ct desc -l …
+	component:<component-name>@<pvob>
+	stream:<stream-name>@<pvob>
+	baseline:<baseline-name>@<pvob>
+	activity:<activity-name>@<pvob>
+	project:<project-name>@<pvob>
+	vob:<vob-tag>
+
+
+
+Listing UCM objects and checkouts
+You can also describe elements stored inside a VOB as well as change-sets. 
+You can use instead also the ls* commands like
+> ct …
+	lscomponent -l <component-name>@<pvob>
+	lsstream -l <stream-name>@<pvob>
+	lsbaseline -l <baseline-name>@<pvob>
+	lsactivity -l <activity-name>@<pvob>
+	lsproject -l <project-name>@<pvob>
+
+Determine private files and ClearCase elements 
+	> ct ls
+Which elements are checked out currently in my view?
+> ct lsco –me
+Which elements are checked out currently in the path?
+> ct lsco –all <vob-tag>
+
+
+Views
+
+Find the Global Storage locations
+	> ct lsstgloc -view
+
+Create a view, set view and delete a view
+> ct mkview -tag <view-tag> -stream <stream-name@pvob> -stgloc <view-storage-location>
+> ct setview <view-tag> (startview on Windows)
+> ct rmview -tag <view-tag>
+
+Error during view removal?
+> ct rmview -avobs –uuid <uuid-of-the-view>
+> ct unregister -view –uuid <uuid-of-the-view>
+> ct rmtag -view <view-tag>
+
+Don’t forget to remove the .vws directories of the view you removed.
+
+Find view-private files: ct lsprivate
+
+
+Checkout and check-in
+
+Checkout current directory: ct co –nc .
+Check out an element within your view: ct co –nc <relative-path> or <full-path>
+Check in an element within your view: ct ci –nc <relative-path> or <full-path>
+Check-in current directory: ct ci –nc .
+Checked out the wrong file, or don’t want to save changes? ct unco <relative-path> or <full-path>
+
+
+Rebase
+
+Rebase dev stream to a specific baseline, for modifiable and non-modifiable component only
+	> ct rebase -baseline <baseline-name>@<pvob>
+Rebase to recommended baseline from project level
+> ct rebase -rec
+Preview rebase
+	> ct rebase -preview
+Finish rebase
+	> ct rebase -complete
+
+
+Deliver
+
+Deliver from development stream to integration stream
+> ct deliver [-to <integration-stream-view-tag>]
+> ct deliver -complete
+
+Cancel delivery
+> ct deliver –cancel
+
+Preview delivery
+	> ct deliver –preview
+
+
+Compare content of streams and baselines
+
+You can compare Stream with Stream, Baseline with Baseline and Stream with Baseline
+
+Baseline vs Baseline:
+	> ct diffbl baseline:<baseline1>@</pvob> baseline:<baseline2>@</pvob> 
+Stream vs Stream:
+	> ct diffbl stream:<stream1>@</pvob> stream:<stream2>@</pvob> 
+Stream vs Baseline:
+	> ct diffbl stream:<stream>@</pvob> baseline:<baseline>@</pvob> 
+Differences between 2 versions of a file
+	> ct diff <element>@@<branches>/<versionX> <element>@@<branches>/<versionY>
+
+
+VOB consist of: 
+administration data, <path-to-vbs>/admin 
+VOB database, <path-to-vbs>/db 
+cleartext pool, <path-to-vbs>/c/cdft 
+derived object pool, <path-to-vbs>/d/ddft 
+source pool, <path-to-vbs>/s/sdft
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############################################################################################
+Output
+###############################################################################################
+
+slobodanj@scrbalwdk004237:/ % ct describe stream:slobodanj_GCSS_Linux_R6000@\vobs/N_Bravo_pvob
+stream "slobodanj_GCSS_Linux_R6000"
+  created 2018-04-19T14:36:02Z by slobodanj.slobodanj@scrbalwdk004237
+  owner: slobodanj
+  group: slobodanj
+  project: Linux_R6000_proj@/vobs/N_Bravo_pvob (development stream)
+  default deliver stream: GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob
+  development streams:
+  contains activities:
+  foundation baselines:
+    GExpLinux-6000.0.4.1@/vobs/N_Bravo_pvob (N_Bravo_blcomp@/vobs/N_Bravo_pvob) (non-modifiable)
+  recommended baselines:
+  views:
+    slobodanj_R6000
+  policies:
+    POLICY_DELIVER_REQUIRE_REBASE disabled
+    POLICY_DELIVER_NCO_DEVSTR disabled
+    POLICY_INTRAPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTRAPROJECT_DELIVER_ALLOW_MISSING_TGTCOMPS disabled
+    POLICY_INTERPROJECT_DELIVER disabled
+    POLICY_INTERPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTERPROJECT_DELIVER_REQUIRE_TGTCOMP_VISIBILITY disabled
+    POLICY_INTERPROJECT_DELIVER_ALLOW_NONMOD_TGTCOMPS disabled
+    POLICY_CHSTREAM_UNRESTRICTED disabled
+    POLICY_DELIVER_NCO_SELACT disabled
+    POLICY_REBASE_CO disabled
+  policies (effective):
+    POLICY_DELIVER_REQUIRE_REBASE enabled
+    POLICY_DELIVER_NCO_DEVSTR disabled
+    POLICY_INTRAPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTRAPROJECT_DELIVER_ALLOW_MISSING_TGTCOMPS disabled
+    POLICY_INTERPROJECT_DELIVER enabled
+    POLICY_INTERPROJECT_DELIVER_FOUNDATION_CHANGES enabled
+    POLICY_INTERPROJECT_DELIVER_REQUIRE_TGTCOMP_VISIBILITY disabled
+    POLICY_INTERPROJECT_DELIVER_ALLOW_NONMOD_TGTCOMPS disabled
+    POLICY_CHSTREAM_UNRESTRICTED disabled
+    POLICY_DELIVER_NCO_SELACT disabled
+    POLICY_REBASE_CO disabled
+  baseline naming template: basename
+  Hyperlinks:
+    UseBaseline -> baseline:GExpLinux-6000.0.4.1@/vobs/N_Bravo_pvob
+  Guarding: brtype:slobodanj_GCSS_Linux_R6000@/vobs/N_Bravo_pvob
+
+
+slobodanj@scrbalwdk004237:/ % ct describe stream:Linux_R6000_ints@\vobs/N_Bravo_pvob
+stream "Linux_R6000_ints" (locked)
+  created 2018-03-22T07:01:21Z by DK/S/*INAPMU/IBM/ccvobadm (ccvobadm.ccusrs@scrbgcsdk002268)
+  owner: ccvobadm
+  group: ccusrs
+  project: Linux_R6000_proj@/vobs/N_Bravo_pvob (integration stream)
+  default deliver stream:
+  development streams:
+    GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob
+    GHDER_Linux_R6000_ints@/vobs/N_Bravo_pvob
+    TOP_Linux_R6000_ints@/vobs/N_Bravo_pvob
+    ARCHIVE_Linux_R6000_ints@/vobs/N_Bravo_pvob
+  contains activities:
+    R6000_setup@/vobs/N_Bravo_pvob
+    adm_upd_build_ID_on_Linux_R6000_ints@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180322.094402@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180322.094404@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180322.094406@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180322.094409@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180329.062003@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180329.062005@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180329.062008@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180329.062010@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180329.094202@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180329.094204@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180329.094206@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180330.094202@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180402.191204@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180403.093802@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180403.093805@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180403.093807@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180405.191003@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180406.094002@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180406.094005@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180406.094007@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180411.191003@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180412.094002@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180412.094004@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180412.094006@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180412.094007@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180412.191003@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180413.093802@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180413.093805@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180413.093807@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180413.191004@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180414.094001@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180414.094003@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180414.094006@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180414.094008@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180417.094002@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180417.094004@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180417.094006@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180417.094008@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180418.094002@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180418.191003@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180419.094001@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180419.094005@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180419.094008@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180419.190802@/vobs/N_Bravo_pvob
+    deliver.ARCHIVE_Linux_R6000_ints.20180420.093802@/vobs/N_Bravo_pvob
+    deliver.GCSS_Linux_R6000_ints.20180420.093804@/vobs/N_Bravo_pvob
+    deliver.GHDER_Linux_R6000_ints.20180420.093807@/vobs/N_Bravo_pvob
+    deliver.TOP_Linux_R6000_ints.20180420.093809@/vobs/N_Bravo_pvob
+  foundation baselines:
+    LINUX-MASTER-R5910.0.0.20180418-5@/vobs/N_Bravo_pvob (N_Bravo_blcomp@/vobs/N_Bravo_pvob) (non-modifiable)
+  recommended baselines:
+    LINUX-MASTER-R6000.0.0.20180419-2@/vobs/N_Bravo_pvob (N_Bravo_blcomp@/vobs/N_Bravo_pvob)
+  views:
+    ccvobadm_Linux_R6000_intv
+    mIEYI009_Linux_R6000_proj_GCSS_devV
+    stevanc_r6000_migration
+  policies:
+    POLICY_DELIVER_REQUIRE_REBASE disabled
+    POLICY_DELIVER_NCO_DEVSTR disabled
+    POLICY_INTRAPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTRAPROJECT_DELIVER_ALLOW_MISSING_TGTCOMPS disabled
+    POLICY_INTERPROJECT_DELIVER disabled
+    POLICY_INTERPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTERPROJECT_DELIVER_REQUIRE_TGTCOMP_VISIBILITY disabled
+    POLICY_INTERPROJECT_DELIVER_ALLOW_NONMOD_TGTCOMPS disabled
+    POLICY_CHSTREAM_UNRESTRICTED disabled
+    POLICY_DELIVER_NCO_SELACT disabled
+    POLICY_REBASE_CO disabled
+  policies (effective):
+    POLICY_DELIVER_REQUIRE_REBASE enabled
+    POLICY_DELIVER_NCO_DEVSTR disabled
+    POLICY_INTRAPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTRAPROJECT_DELIVER_ALLOW_MISSING_TGTCOMPS disabled
+    POLICY_INTERPROJECT_DELIVER enabled
+    POLICY_INTERPROJECT_DELIVER_FOUNDATION_CHANGES enabled
+    POLICY_INTERPROJECT_DELIVER_REQUIRE_TGTCOMP_VISIBILITY disabled
+    POLICY_INTERPROJECT_DELIVER_ALLOW_NONMOD_TGTCOMPS disabled
+    POLICY_CHSTREAM_UNRESTRICTED disabled
+    POLICY_DELIVER_NCO_SELACT disabled
+    POLICY_REBASE_CO disabled
+  baseline naming template: basename
+  Attributes:
+    isBuildStream = "yes"
+    upblfile = "/vobs/NCommon_pcmp/tools/swinfo/update_BuildVersion.pl"
+    blfile = "/vobs/NCommon_pcmp/include/BuildVersion.cpp"
+    nb_fe_cmd = "/vobs/NFE_pcmp/NightlyBuild/mk.pl%-w"
+    nb_be_cmd = "/vobs/NExportFmwk_pcmp/tools/build_BE.pl"
+  Hyperlinks:
+    UseBaseline -> baseline:LINUX-MASTER-R5910.0.0.20180418-5@/vobs/N_Bravo_pvob
+  Guarding: brtype:Linux_R6000_ints@/vobs/N_Bravo_pvob
+
+
+/vobs> ct lsproject -invob N_Bravo_pvob/
+2015-07-21T11:07:36Z  Tools_IaaS_proj  ccvobadm
+2017-12-20T08:06:45Z  Linux_R5710_proj  ccvobadm
+2018-03-07T09:03:46Z  Linux_R5910_proj  ccvobadm
+2018-03-22T06:55:04Z  Linux_R6000_proj  ccvobadm
+2005-12-08T12:14:52Z  CJeep_proj  ccvobadm
+2006-10-18T08:26:43Z  CMoped_proj  ccvobadm
+2007-09-03T13:28:41Z  BUFFER_NDB9_Proj  ccvobadm
+2007-09-04T11:53:01Z  CTuktuk_proj  ccvobadm
+
+
+/vobs> ct lsbl -long baseline:LINUX-MASTER-R5910.0.0.20180418-5@/vobs/N_Bravo_pvob
+baseline "LINUX-MASTER-R5910.0.0.20180418-5"
+ 2018-04-18T19:08:14Z by DK/S/*INAPMU/IBM/ccvobadm (ccvobadm.ccusrs@scrbgcsdk002268)
+  owner: ccvobadm
+  group: ccusrs
+  stream: Linux_R5910_ints@/vobs/N_Bravo_pvob
+  component: N_Bravo_blcomp@/vobs/N_Bravo_pvob
+  label status: No Versions to Label
+  change sets:
+  promotion level: INITIAL
+  depends on:
+    LINUX-MASTER-R5910.0.0.20180418-5.6488@/vobs/N_Bravo_pvob (NExportFmwk_pcmp@/vobs/NExportFmwk_pcmp)
+    LINUX-MASTER-R5300.0.0.20160518-2.1934@/vobs/N_Bravo_pvob (NRefDataTool_pcmp@/vobs/NRefDataTool_pcmp)
+    LINUX-MASTER-R5300.0.0.20160518-2.9177@/vobs/N_Bravo_pvob (NFE2_pcmp@/vobs/NFE2_pcmp)
+    LINUX-MASTER-R5910.0.0.20180418-5.9336@/vobs/N_Bravo_pvob (NDocProc_pcmp@/vobs/NDocProc_pcmp)
+    LINUX-MASTER-R5910.0.0.20180418-5.7557@/vobs/N_Bravo_pvob (NActPlan_pcmp@/vobs/NActPlan_pcmp)
+    LINUX-MASTER-R5910.0.0.20180418.1514@/vobs/N_Bravo_pvob (N3PP_pcmp@/vobs/N3PP_pcmp)
+    LINUX-MASTER-R5910.0.0.20180418-5.7076@/vobs/N_Bravo_pvob (NCommon_pcmp@/vobs/NCommon_pcmp)
+    LINUX-MASTER-R5910.0.0.20180418-5.4001@/vobs/N_Bravo_pvob (NBE2_pcmp@/vobs/NBE2_pcmp)
+    LINUX-MASTER-R5300.0.0.20160518-2.7323@/vobs/N_Bravo_pvob (NDocware_pcmp@/vobs/NDocware_pcmp)
+    LINUX-MASTER-R5910.0.0.20180418-5.9705@/vobs/N_Bravo_pvob (NFE_pcmp@/vobs/NFE_pcmp)
+    LINUX-MASTER-R5910.0.0.20180418-5.3673@/vobs/N_Bravo_pvob (NBE_pcmp@/vobs/NBE_pcmp)
+    LINUX-MASTER-R5800.0.0.20171101.6766@/vobs/N_Bravo_pvob (NAlloc_pcmp@/vobs/NAlloc_pcmp)
+    LINUX-MASTER-R5910.0.0.20180319.3006@/vobs/N_Bravo_pvob (NGeo_pcmp@/vobs/NGeo_pcmp)
+    LINUX-MASTER-R5910.0.0.20180308.1322@/vobs/N_Bravo_pvob (NSec_pcmp@/vobs/NSec_pcmp)
+    LINUX-MASTER-R5910.0.0.20180320.8626@/vobs/N_Bravo_pvob (NConfig_pcmp@/vobs/NConfig_pcmp)
+    LINUX-MASTER-R5300.0.0.20160622.6116@/vobs/N_Bravo_pvob (NFmwkTest_pcmp@/vobs/NFmwkTest_pcmp)
+    LINUX-MASTER-R5900.0.0.20180319.865@/vobs/N_Bravo_pvob (Archiving@/vobs/N_Bravo_pvob)
+    LINUX-MASTER-R5300.0.0.20160518-2.3393@/vobs/N_Bravo_pvob (GHDR_pcmp@/vobs/N_Bravo_pvob)
+    LINUX-MASTER-R5910.0.0.20180308.5407@/vobs/N_Bravo_pvob (GCSS_mqmh@/vobs/N_Bravo_pvob)
+    LINUX-MASTER-R5800.0.0.20171101.3676@/vobs/N_Bravo_pvob (GHDER_pcmp@/vobs/N_Bravo_pvob)
+    LINUX-MASTER-R5910.0.0.20180308.6548@/vobs/N_Bravo_pvob (TOP_pcmp@/vobs/N_Bravo_pvob)
+    LINUX-MASTER-R5600.0.0.20170204.5307@/vobs/N_Bravo_pvob (ARCHIVE_pcmp@/vobs/Archive_pvob)
+
+
+Notes:
+It is recommended that you use relative VOB symbolic links instead of absolute symbolic links.
+The absolute VOB symbolic link requires you to use absolute path names from the view-tag level, for example, \view-tag\VOB-tag\filename.
+Hence, they are valid only in the view in which they were created.
+
+
+
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs % find -L -type l > /home/slobodanj/linux_find_sym_link.txt
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/TppRecorder/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/bl/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/bp/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/cbc/bp/containers/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/cbc/svc/cbc2bl/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/db/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/dl/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/exception_handling/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/gcssfmwk/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/messages/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/svc/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/thread/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/tuxedo/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/utilities/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/validate/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/mq/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './NExportFmwk_pcmp/.module_include/imap/framework' is part of the same file system loop as './NExportFmwk_pcmp'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/TppRecorder/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/bl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/bp/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/cbc/bp/containers/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/cbc/svc/cbc2bl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/db/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/dl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/exception_handling/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/gcssfmwk/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/messages/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/svc/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/thread/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/tuxedo/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/utilities/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/validate/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/mq/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/imap/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/TppRecorder/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/bl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/bp/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/cbc/bp/containers/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/cbc/svc/cbc2bl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/db/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/dl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/exception_handling/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/gcssfmwk/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/messages/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/svc/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/thread/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/tuxedo/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/utilities/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/validate/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/mq/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/imap/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/TppRecorder/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/bl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/bp/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/cbc/bp/containers/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/cbc/svc/cbc2bl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/db/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/dl/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/exception_handling/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/gcssfmwk/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/messages/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/svc/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/thread/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/tuxedo/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/utilities/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/validate/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/mq/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/imap/framework' is part of the same file system loop as './GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; './GCSS_mqmh/.module_include/proxy/application/gsa' is part of the same file system loop as './GCSS_mqmh'.
+find: File system loop detected; './GCSS_mqmh/.module_include/proxy/framework/gsa' is part of the same file system loop as './GCSS_mqmh'.
+find: File system loop detected; './GCSS_mqmh/.module_include/proxy/handlers/gsa' is part of the same file system loop as './GCSS_mqmh'.
+find: File system loop detected; './GCSS_mqmh/.module_include/dispatcher/message/gsa' is part of the same file system loop as './GCSS_mqmh'.
+find: File system loop detected; './GCSS_mqmh/.module_include/dispatcher/gsa' is part of the same file system loop as './GCSS_mqmh'.
+
+
+> /view/slobodanj_test/vobs/NBE_pcmp/.@@/main/N_Alfa_ints/2/config/main/N_Alfa_ints/1/spectemplates/main/N_Alfa_ints/1/gcssboot.template
+symbolic link "/view/slobodanj_test/vobs/NBE_pcmp/.@@/main/N_Alfa_ints/2/config/main/N_Alfa_ints/1/spectemplates/main/N_Alfa_ints/1/gcssboot.template" -> ../templates/gcssboot.template
+  created 2005-01-14T06:57:31Z by Arne L. Joergensen (alj003.ccusrs@gcssu2)
+  "created by clearfsimport"
+  Protection:
+    User : ccvobadm : rwx
+    Group: ccusrs   : rwx
+    Other:          : rwx
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs % ls
+ARCHIVE_pcmp  GHDER_pcmp     NAlloc_pcmp  NCommon_pcmp   NDocware_pcmp     NFE_pcmp        NRefDataTool_pcmp  TOP_pcmp
+Archiving     N3PP_pcmp      NBE2_pcmp    NConfig_pcmp   NExportFmwk_pcmp  NFmwkTest_pcmp  NSec_pcmp
+GCSS_mqmh     NActPlan_pcmp  NBE_pcmp     NDocProc_pcmp  NFE2_pcmp         NGeo_pcmp       N_Bravo_pvob
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs % cd NBE_pcmp/
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs/NBE_pcmp % ls
+BE_COMP.sln        README.R10.0.txt   XMLSchemas  copydist.conf.Moved.to.NConfig_pcmp  doc        lost+found  tools
+Makefile.db        README.R11.0.txt   admin       copydistxml.conf                     feature    projroot    tpp
+Makefile.inc       README.R11.1.txt   bin         copydocdist.conf                     framework  release     ut
+Makefile.list      README.R5.8.1.txt  bl          db                                   include    samples     validate
+Makefile.sec.old   README.R9.0.5.txt  bp          defunct_tpp                          lib        svc
+Makefile.top.help  README.R9.0.txt    config      dl                                   logs       testdata
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs/NBE_pcmp % cd testdata/
+GDS/ UTD/
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs/NBE_pcmp % cd testdata/
+GDS/ UTD/
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs/NBE_pcmp % cd testdata/
+GDS/ UTD/
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs/NBE_pcmp % cd ..
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs % find -name "templates"
+./NExportFmwk_pcmp/DrT/DR/templates
+./NBE_pcmp/config/templates
+./NBE_pcmp/doc/templates
+./NBE_pcmp/tpp/998_59_SCV_Replication/data/templates
+./ARCHIVE_pcmp/config/templates
+./GHDER_pcmp/config/templates
+./GHDER_pcmp/doc/templates
+./TOP_pcmp/config/templates
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs %
+
+
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs % find -name "gcssboot.template"
+./NBE_pcmp/config/spectemplates/gcssboot.template
+./NBE_pcmp/config/templates/gcssboot.template
+
+
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs/NBE_pcmp/config % ct describe \
+> /view/slobodanj_test/vobs/NBE_pcmp/.@@/main/N_Alfa_ints/4/.module_include/main/N_Alfa_ints/1/if/main/N_Alfa_ints/NBravo_ints/make_NDiablo_devs/4/GDS/main/make_NDiablo_devs/1/framework
+symbolic link "/view/slobodanj_test/vobs/NBE_pcmp/.@@/main/N_Alfa_ints/4/.module_include/main/N_Alfa_ints/1/if/main/N_Alfa_ints/NBravo_ints/make_NDiablo_devs/4/GDS/main/make_NDiablo_devs/1/framework" -> ../../../projroot/src/framework
+  created 2006-06-28T08:31:52Z by Michael Wraa Hansen (conmwh.ccusrs@gcssu1)
+  Protection:
+    User : UNIX:UID-1005 : rwx
+    Group: ccusrs   : rwx
+    Other:          : rwx
+
+
+### snapshot directory ###
+
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000 % ls
+update.2018-04-20T10:32:47Z.updt  vobs
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000 % cd vobs
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs % ls
+ARCHIVE_pcmp  GHDER_pcmp     NAlloc_pcmp  NCommon_pcmp   NDocware_pcmp     NFE_pcmp        NRefDataTool_pcmp  TOP_pcmp
+Archiving     N3PP_pcmp      NBE2_pcmp    NConfig_pcmp   NExportFmwk_pcmp  NFmwkTest_pcmp  NSec_pcmp
+GCSS_mqmh     NActPlan_pcmp  NBE_pcmp     NDocProc_pcmp  NFE2_pcmp         NGeo_pcmp       N_Bravo_pvob
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000/vobs % cd ..
+slobodanj@scrbalwdk004237:/u01/slobodanj/GCSS_R6000 % du -sh
+2.1G    .
+
+
+find -L /subtree -xtype l -exec readlink -f {} +
+
+
+slobodanj@scrbalwdk004237:/ % find -L /u01/slobodanj/GCSS_R6000/ -xtype l -exec readlink -f {} + > \
+> /home/slobodanj/resolved_symlinks.txt
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/TppRecorder/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/bl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/bp/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/cbc/bp/containers/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/cbc/svc/cbc2bl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/db/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/dl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/exception_handling/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/gcssfmwk/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/messages/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/svc/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/thread/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/tuxedo/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/utilities/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/validate/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/mq/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp/.module_include/imap/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/NExportFmwk_pcmp'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/TppRecorder/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/bl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/bp/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/cbc/bp/containers/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/cbc/svc/cbc2bl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/db/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/dl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/exception_handling/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/gcssfmwk/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/messages/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/svc/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/thread/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/tuxedo/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/utilities/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/validate/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/mq/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework/.module_include/imap/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/bp/containers/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/TppRecorder/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/bl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/bp/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/cbc/bp/containers/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/cbc/svc/cbc2bl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/db/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/dl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/exception_handling/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/gcssfmwk/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/messages/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/svc/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/thread/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/tuxedo/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/utilities/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/validate/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/mq/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework/.module_include/imap/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/TppRecorder/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/bl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/bp/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/cbc/bp/containers/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/cbc/svc/cbc2bl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/db/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/dl/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/exception_handling/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/gcssfmwk/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/messages/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/svc/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/thread/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/tuxedo/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/utilities/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/validate/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/mq/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework/.module_include/imap/framework' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/cbc/ut/svc/cbc2bl/framework'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/proxy/application/gsa' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/proxy/framework/gsa' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/proxy/handlers/gsa' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/dispatcher/message/gsa' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh'.
+find: File system loop detected; '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh/.module_include/dispatcher/gsa' is part of the same file system loop as '/u01/slobodanj/GCSS_R6000/vobs/GCSS_mqmh'.
+
+
+sudo /usr/atria/etc/atria_start stop
+sudo /usr/atria/etc/atria_start start
+
+############################
+XMLSchemas
+############################
+
+/vobs/NBE_pcmp> ls -la
+total 602
+drwxrwxr-x  21 ccvobadm ccusrs   1181 Sep  2  2013 ./
+drwxr-xr-x  89 root     root     4096 Apr  4 08:22 ../
+...
+lrwxrwxrwx   1     1224 ccusrs     26 Jun  3  2013 XMLSchemas -> ../NCommon_pcmp/XMLSchemas
+...
+
+/vobs/NBE_pcmp> readlink -f XMLSchemas
+/vobs/NCommon_pcmp/XMLSchemas
+
+/vobs/NCommon_pcmp> ls -la
+total 532
+drwxrwxr-x 16 ccvobadm ccusrs    441 Jun 20  2013 ./
+drwxr-xr-x 89 root     root     4096 Apr  4 08:22 ../
+-r--r--r--  1 ccvobadm ccusrs    897 Jul 31  2006 Makefile
+drwxrwxr-x  8     2022 ccusrs    197 Sep  2  2013 ServiceDefinitions/
+drwxrwxr-x  2 ccvobadm ccusrs      0 Feb  3  2005 bin/
+drwxrwxr-x  3 ccvobadm ccusrs     30 Jul 30  2006 bp/
+drwxrwxr-x 28 ccvobadm ccusrs   2346 Mar  7 09:19 cbc/
+drwxrwxr-x  3 ccvobadm ccusrs    268 Jul 30  2006 fmlstream/
+drwxrwxr-x  5 ccvobadm ccusrs    673 Mar  7 09:19 include/
+drwxrwxr-x  4 ccvobadm ccusrs     52 Jul 30  2006 lib/
+drwxrwxr-x 23 ccvobadm ccusrs 528398 Apr 16 09:24 lost+found/
+drwxrwxr-x  8 ccvobadm ccusrs    178 Oct 23  2006 module_include/
+drwxrwxr-x  3 ccvobadm ccusrs     31 Jul 30  2006 perl_modules/
+lrwxrwxrwx  1     1005 ccusrs     20 Jun 19  2006 projroot -> ../NBE_pcmp/projroot/
+drwxrwxr-x  3 ccvobadm ccusrs     26 Jul 30  2006 svc/
+drwxrwxr-x  9 ccvobadm ccusrs    298 Jun  9  2010 tools/
+drwxrwxr-x  4 ccvobadm ccusrs   1534 Mar  7 09:19 tuxobjs/
+drwxrwxr-x  3 ccvobadm ccusrs     23 Jul 30  2006 unit_test/
+
+
+/vobs/NCommon_pcmp> ct lsprivate
+/vobs/NCommon_pcmp> ct ls -rec -view_only
+
+
+
+
+
+
+####################################################################################
+Listing komandi
+####################################################################################
+
+slobodanj@scrbalwdk004237:/vobs % ct lsstream -long -invob N_Bravo_pvob/
+
+slobodanj@scrbalwdk004237:/vobs % ct lsview -long 
+
+slobodanj@scrbalwdk004237:/vobs % ct lsstream -tree -invob N_Bravo_pvob/ >/home/slobodanj/lsstream_tree_N_Bravo.txt
+
+
+###listu view-ova dobili sa ct lsstream dok smo u vob-u
+slobodanj@scrbalwdk004237:/vobs % ct lsview slobodanj_test
+  slobodanj_test       /home/app-users/ccvobadm/viewstore_stg_4237/slobodanj/slobodanj_test.vws
+slobodanj@scrbalwdk004237:/vobs % ct lsview slobodanj_R6000
+* slobodanj_R6000      /u01/slobodanj/slobodanj_R6000.vws
+slobodanj@scrbalwdk004237:/vobs % ct lsview slobodanj_R6000_migration
+  slobodanj_R6000_migration /u01/slobodanj/GCSS_R6000.vws
+
+slobodanj@scrbalwdk004237:/vobs % ct lsview -long slobodanj_test
+Tag: slobodanj_test
+  Global path: /home/app-users/ccvobadm/viewstore_stg_4237/slobodanj/slobodanj_test.vws
+  Server host: scrbalwdk004237
+  Region: gcss_ux
+  Active: NO
+  View tag uuid:7b065a0e.43d711e8.8aff.00:50:56:a5:0b:8e
+View on host: scrbalwdk004237
+View server access path: /home/app-users/ccvobadm/viewstore_stg_4237/slobodanj/slobodanj_test.vws
+View uuid: 7b065a0e.43d711e8.8aff.00:50:56:a5:0b:8e
+View owner: slobodanj
+
+slobodanj@scrbalwdk004237:/vobs % ct lsview -long slobodanj_R6000
+Tag: slobodanj_R6000
+  Global path: /u01/slobodanj/slobodanj_R6000.vws
+  Server host: scrbalwdk004237
+  Region: gcss_ux
+  Active: YES
+  View tag uuid:875bbde0.43e011e8.99f4.00:50:56:a5:0b:8e
+View on host: scrbalwdk004237
+View server access path: /u01/slobodanj/slobodanj_R6000.vws
+View uuid: 875bbde0.43e011e8.99f4.00:50:56:a5:0b:8e
+View attributes: ucmview
+View owner: slobodanj
+
+slobodanj@scrbalwdk004237:/vobs % ct lsview -long slobodanj_R6000_migration
+Tag: slobodanj_R6000_migration
+  Global path: /u01/slobodanj/GCSS_R6000.vws
+  Server host: scrbalwdk004237
+  Region: gcss_ux
+  Active: NO
+  View tag uuid:c014633e.447c11e8.837b.00:50:56:a5:0b:8e
+View on host: scrbalwdk004237
+View server access path: /u01/slobodanj/GCSS_R6000.vws
+View uuid: c014633e.447c11e8.837b.00:50:56:a5:0b:8e
+View attributes: snapshot,ucmview
+View owner: slobodanj
+
+
+slobodanj@scrbalwdk004237:/vobs % ct rmview -tag slobodanj_R6000
+Removing references from VOB "/vobs/N_Bravo_pvob" ...
+Removed references to view "/u01/slobodanj/slobodanj_R6000.vws" from VOB "/vobs/N_Bravo_pvob".
+slobodanj@scrbalwdk004237:/vobs % ct rmview -tag slobodanj_test
+
+slobodanj@scrbalwdk004237:/vobs % ct lsstream -short -invob N_Bravo_pvob/
+
+
+slobodanj@scrbalwdk004237:/vobs % ct describe stream:slobodanj_GCSS_Linux_R6000@/vobs/N_Bravo_pvob
+stream "slobodanj_GCSS_Linux_R6000"
+  created 2018-04-19T14:36:02Z by slobodanj.slobodanj@scrbalwdk004237
+  owner: slobodanj
+  group: slobodanj
+  project: Linux_R6000_proj@/vobs/N_Bravo_pvob (development stream)
+  default deliver stream: GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob
+  development streams:
+  contains activities:
+  foundation baselines:
+    GExpLinux-6000.0.4.1@/vobs/N_Bravo_pvob (N_Bravo_blcomp@/vobs/N_Bravo_pvob) (non-modifiable)
+  recommended baselines:
+  views:
+  policies:
+    POLICY_DELIVER_REQUIRE_REBASE disabled
+    POLICY_DELIVER_NCO_DEVSTR disabled
+    POLICY_INTRAPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTRAPROJECT_DELIVER_ALLOW_MISSING_TGTCOMPS disabled
+    POLICY_INTERPROJECT_DELIVER disabled
+    POLICY_INTERPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTERPROJECT_DELIVER_REQUIRE_TGTCOMP_VISIBILITY disabled
+    POLICY_INTERPROJECT_DELIVER_ALLOW_NONMOD_TGTCOMPS disabled
+    POLICY_CHSTREAM_UNRESTRICTED disabled
+    POLICY_DELIVER_NCO_SELACT disabled
+    POLICY_REBASE_CO disabled
+  policies (effective):
+    POLICY_DELIVER_REQUIRE_REBASE enabled
+    POLICY_DELIVER_NCO_DEVSTR disabled
+    POLICY_INTRAPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTRAPROJECT_DELIVER_ALLOW_MISSING_TGTCOMPS disabled
+    POLICY_INTERPROJECT_DELIVER enabled
+    POLICY_INTERPROJECT_DELIVER_FOUNDATION_CHANGES enabled
+    POLICY_INTERPROJECT_DELIVER_REQUIRE_TGTCOMP_VISIBILITY disabled
+    POLICY_INTERPROJECT_DELIVER_ALLOW_NONMOD_TGTCOMPS disabled
+    POLICY_CHSTREAM_UNRESTRICTED disabled
+    POLICY_DELIVER_NCO_SELACT disabled
+    POLICY_REBASE_CO disabled
+  baseline naming template: basename
+  Hyperlinks:
+    UseBaseline -> baseline:GExpLinux-6000.0.4.1@/vobs/N_Bravo_pvob
+  Guarding: brtype:slobodanj_GCSS_Linux_R6000@/vobs/N_Bravo_pvob
+
+
+ct mkstream -in GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob slobodanj_R6000_GCSS@/vobs/N_Bravo_pvob
+Created stream "slobodanj_R6000_GCSS".eam -in GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob slobodanj_R6000_GCSS@/vobs/N_Bravo_pvob
+
+
+slobodanj@scrbalwdk004237:/ % ct mkview -tag slobodanj_R6000_view -stream slobodanj_R6000_GCSS@/vobs/N_Bravo_pvob  \
+> /u01/slobodanj/slobodanj_R6000_view.vws
+Created view.
+Host-local path: scrbalwdk004237:/u01/slobodanj/slobodanj_R6000_view.vws
+Global path:     /u01/slobodanj/slobodanj_R6000_view.vws
+It has the following rights:
+User : slobodanj : rwx
+Group: slobodanj : ---
+Other:          : ---
+Attached view to stream "slobodanj_R6000_GCSS".
+
+
+slobodanj@scrbalwdk004237:/ % ct setview slobodanj_R6000_view
+GCSS Source Repository Detected -> Loading Development Profile
+This is the ALL pvob
+Welcome slobodanj
+WARNING: add_to_ld_library_path: path does not exist: /opt/rh/devtoolset-1.1/root/usr2/lib
+WARNING: add_to_ld_library_path: path does not exist: /opt/oracle/product/current/precomp/lib32
+Sourced .ora_gcss1d_zLinux
+Sourced .ora_gcss1d_zLinux
+Clearcase completions loaded
+WARNING: add_to_path: path does not exist: /opt/eclipse
+Syncs view with stream
+Sourced std-profile.sh
+Sourced std-aliases.sh
+
+BUILDTYPE: DEBUG_WINK
+CPPUNITLIBDIR: /opt/apps/cppunit-1.10.2/lib-debug
+WARNING: add_to_ld_library_path: path does not exist: /opt/apps/cppunit-1.10.2/lib-debug
+WARNING: add_to_path: path does not exist: /config
+WARNING: add_to_path: path does not exist: /tools
+WARNING: add_to_path: path does not exist: /src/common/tools/cbcgen/cg
+WARNING: add_to_path: path does not exist: /src/common/tools/code_templates
+WARNING: add_to_ld_library_path: path does not exist: /opt/apps/gtest/lib
+Sourced /vobs/NExportFmwk_pcmp/tools/proj-profile.sh
+Sourced /vobs/NExportFmwk_pcmp/tools/proj-aliases.sh
+
+Unknown Project
+
+/>
+
+
+slobodanj@scrbalwdk004237:/ % ct lsstream -long -view slobodanj_R6000_view
+stream "slobodanj_R6000_GCSS"
+ 2018-04-27T07:55:00Z by slobodanj.slobodanj@scrbalwdk004237
+  owner: slobodanj
+  group: slobodanj
+  project: Linux_R6000_proj@/vobs/N_Bravo_pvob (development stream)
+  default deliver stream: GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob
+  development streams:
+  contains activities:
+  foundation baselines:
+    GExpLinux-6000.0.8.2@/vobs/N_Bravo_pvob (N_Bravo_blcomp@/vobs/N_Bravo_pvob) (non-modifiable)
+  recommended baselines:
+  views:
+    slobodanj_R6000_view
+  policies:
+    POLICY_DELIVER_REQUIRE_REBASE disabled
+    POLICY_DELIVER_NCO_DEVSTR disabled
+    POLICY_INTRAPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTRAPROJECT_DELIVER_ALLOW_MISSING_TGTCOMPS disabled
+    POLICY_INTERPROJECT_DELIVER disabled
+    POLICY_INTERPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTERPROJECT_DELIVER_REQUIRE_TGTCOMP_VISIBILITY disabled
+    POLICY_INTERPROJECT_DELIVER_ALLOW_NONMOD_TGTCOMPS disabled
+    POLICY_CHSTREAM_UNRESTRICTED disabled
+    POLICY_DELIVER_NCO_SELACT disabled
+    POLICY_REBASE_CO disabled
+  policies (effective):
+    POLICY_DELIVER_REQUIRE_REBASE enabled
+    POLICY_DELIVER_NCO_DEVSTR disabled
+    POLICY_INTRAPROJECT_DELIVER_FOUNDATION_CHANGES disabled
+    POLICY_INTRAPROJECT_DELIVER_ALLOW_MISSING_TGTCOMPS disabled
+    POLICY_INTERPROJECT_DELIVER enabled
+    POLICY_INTERPROJECT_DELIVER_FOUNDATION_CHANGES enabled
+    POLICY_INTERPROJECT_DELIVER_REQUIRE_TGTCOMP_VISIBILITY disabled
+    POLICY_INTERPROJECT_DELIVER_ALLOW_NONMOD_TGTCOMPS disabled
+    POLICY_CHSTREAM_UNRESTRICTED disabled
+    POLICY_DELIVER_NCO_SELACT disabled
+    POLICY_REBASE_CO disabled
+  baseline naming template: basename
+
+
+slobodanj@scrbalwdk004237:/ % ct lsbl -stream GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob
+
+slobodanj@scrbalwdk004237:/home/slobodanj % ct mkstream -in GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob \
+> -baseline LINUX-MASTER-R6000.0.0.20180426@/vobs/N_Bravo_pvob sj_diff_baseline@/vobs/N_Bravo_pvob
+
+
+slobodanj@scrbalwdk004237:/home/slobodanj % ct mkstream -in GCSS_Linux_R6000_ints@/vobs/N_Bravo_pvob \
+> -baseline LINUX-MASTER-R6000.0.0.20180426@/vobs/N_Bravo_pvob sj_diff_baseline@/vobs/N_Bravo_pvob
+Created stream "sj_diff_baseline".
+
+slobodanj@scrbalwdk004237:/home/slobodanj % ct mkview -tag sj_diff_view -stream sj_diff_baseline@/vobs/N_Bravo_pvob \
+> /u01/slobodanj/sj_diff_view.vws
+Created view.
+Host-local path: scrbalwdk004237:/u01/slobodanj/sj_diff_view.vws
+Global path:     /u01/slobodanj/sj_diff_view.vws
+It has the following rights:
+User : slobodanj : rwx
+Group: slobodanj : ---
+Other:          : ---
+Attached view to stream "sj_diff_baseline".
+
+
+### list properties of a current view
+/vobs> ct lsview -long -properties -full -cview
+Tag: slobodanj_R6000_view
+  Global path: /u01/slobodanj/slobodanj_R6000_view.vws
+  Server host: scrbalwdk004237
+  Region: gcss_ux
+  Active: YES
+  View tag uuid:b964596b.49f111e8.891f.00:50:56:a5:0b:8e
+View on host: scrbalwdk004237
+View server access path: /u01/slobodanj/slobodanj_R6000_view.vws
+View uuid: b964596b.49f111e8.891f.00:50:56:a5:0b:8e
+View attributes: ucmview
+View owner: slobodanj
+
+Created 2018-04-27T07:58:08Z by slobodanj.slobodanj@scrbalwdk004237
+Last modified 2018-05-16T13:27:59Z by slobodanj.slobodanj@scrbalwdk004237.crb.apmoller.net
+Last accessed 2018-05-16T13:27:59Z by slobodanj.slobodanj@scrbalwdk004237.crb.apmoller.net
+Last config spec update 2018-05-16T13:27:59Z by slobodanj.slobodanj@scrbalwdk004237.crb.apmoller.net
+Text mode: unix
+Properties: dynamic ucmview readwrite nshareable_dos
+Owner: slobodanj        : rwx (all)
+Group: slobodanj        : --- (none)
+Other:                  : --- (none)
+Additional groups: ccusrs lnxsys61
+
+
+
+How to remove a VOB or View from the ClearCase registry whose storage was deleted -
+http://www-01.ibm.com/support/docview.wss?uid=swg21134700
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###simbolicki linkovi (dereferencirani)- lista
+find -L /u01/slobodanj/GCSS_R6000/ -xtype l -exec readlink -f {} + > /home/slobodanj/resolved_symlinks.txt 
+
+###svi linkovi koji su unutar VOB-ova su uklonjeni
+rep -v "/u01/slobodanj/GCSS_R6000/vobs/" temp.txt > output.txt
+
+
+
+###snapshot presek
+ls -a -h -L -p -R -s -U -1 >ls_snap.txt 2>ls_snap_error.txt
+
+###listaj sve binarne
+find . -type f -exec file -i '{}' \; | grep 'charset=binary' | sed -e 's/\:.*//' > find_output1.txt 2>find_error1.txt
+
+### ekstenzija i koliko fajlova te ekstenzije ima
+Recursive version:
+find . -type f | sed -e 's/.*\.//' | sed -e 's/.*\///' | sort -u
+
+If you want totals (how may times the extension was seen):
+find . -type f | sed -e 's/.*\.//' | sed -e 's/.*\///' | sort | uniq -c | sort -rn
+
+
+### lista binarne u perl-u
+find . -type f | perl -lne 'print if -B'
+
+### nadji velicinu svih fajlova i ukupnu velicinu
+
+FILE=$(cat /u01/slobodanj/GCSS_R6000/vobs/find_output.txt)
+du -ch --apparent-size $FILE > file_sizes.txt
+
+
+
+
+
+
+
+
